@@ -1,0 +1,1 @@
+This prject is proposed to accomplish the task about multi-agent by Deep RL. To accomplish the final task, the entire project should be seperated into certain parts to make the project more  proposeful.
