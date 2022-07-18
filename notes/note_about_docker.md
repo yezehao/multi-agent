@@ -1,9 +1,15 @@
-## Docker
+## Docker in WSL
 ### PULL IMAGE
 When using the docker, the image should be pulled from the website of docker, the official website would give a command like `docker pull <name of image>` . For example, I pull a ros melodic desktop full here, my command would be `docker pull osrf/ros:melodic-desktop-full`. 
 
 ### RUN & EXEC
 The image can be run by the following command: `docker run -t -d --name turtlebot osrf/ros:melodic-desktop-full`. After running the image, a series of numbers would be given, however, that doesn't matter. The container should be executed by the following command.
+
+However, for Docker in Ubuntu, the command to run the docker container is different, which need the driver work with roscore. The image can be run by the following command: 
+```
+sudo docker run -d -t --network host --name turtleot -e DISPLAY=$DISPLAY --device=/dev/dri:dev/dri -v /tmp/.X11-unix/:tmp/.X11-unix/ osrf/ros:noetic-desktop-focal
+```
+
 ```
 docker ps -a
 ```
