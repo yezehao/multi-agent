@@ -10,5 +10,5 @@ The turtlebot would autonomously connnect to the Wi-Fi called `DIF018`, whose pa
 <font size = 4>
 | type | turtlebot ① | turtlebot ② | turtlebot ③ | turtlebot ④ 
 |:-:|:-:|:-:|:-:|:-:|
-| IP address | 10.8.18.51 | 10.8.18.51 | 10.8.18.231 | 10.8.18.216 |
+| IP address | 10.8.18.51 | 10.8.18.52 | 10.8.18.231 | 10.8.18.216 |
 </font>
