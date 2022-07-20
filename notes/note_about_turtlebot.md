@@ -41,4 +41,4 @@ In this way, it is possible to check the rpicamera launch file in WSL terminal. 
 
 
 ### PARKING
-The ROBOTICS e-Manual give an example about the automatic parking vision in their GitHub. However, their program is based on the ROS-kinetics, which means that some of them need to be changed. The sign for parking is the AR code, where AR marker detection is used. The Apriltag can be an alternative about the AR code. **[The GitHub of automatic parking vision](https://github.com/ROBOTIS-GIT/turtlebot3_applications/tree/master/turtlebot3_automatic_parking_vision)**
+The ROBOTICS e-Manual give an example about the automatic parking vision in their GitHub. However, their program is based on the ROS-kinetics, which means that some of them need to be changed. The sign for parking is the AR code, where AR marker detection is used. The Apriltag can be an alternative about the AR code. **[The GitHub of automatic parking vision](https://github.com/ROBOTIS-GIT/turtlebot3_applications/tree/master/turtlebot3_automatic_parking_vision)**,**[Official Document](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)**
